@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .layout {
+            width: 600px;
+            margin: 0 auto;
+        }
+        .alert-msg {
+            color: #fff;
+            padding: 1px 16px;
+            line-height: 1.5;
+            border-radius: 3px;
+            margin-top: 30px;
+        }
+        .success {
+            background-color: #4CAF50;
+        }
+        .info {
+            background-color: #2196F3;
+        }
+        .waring {
+            background-color: #ff9800;
+        }
+        .danger {
+            background-color: #f44336;
+        }
+        .close {
+            float: right;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert-msg success layout">
+        <span class="close">×</span>
+        <h3>恭喜你</h3>
+        <p>获得本周学霸，继续加油吧</p>
+    </div>
+    <div class="alert-msg info layout">
+        <span class="close">×</span>
+        <h3>通知</h3>
+        <p>晚上上课，不要忘了</p>
+    </div>
+    <div class="alert-msg danger layout">
+        <span class="close">×</span>
+        <h3>天啊</h3>
+        <p>竟然几天没做任务</p>
+    </div>
+    <div class="alert-msg waring layout">
+        <span class="close">×</span>
+        <h3>警告</h3>
+        <p>学如逆水行舟，不进则退</p>
+    </div>
+</body>
+</html>
